@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Fishopoly" />
+  <renderer width="1280" height="720"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+  
+  <sprites path="Media\Images">
+
+  <sprite name="StartPage1" file="StartPage1.png"/>
+  <sprite name="StartPage2" file="StartPage2.png"/>
+  <sprite name="StartPage3" file="StartPage3.png"/>
+  <sprite name="StartPage4" file="StartPage4.png"/>
+
+  <sprite name="Credit1" file="Credit1.png"/>
+  <sprite name="Credit2" file="Credit2.png"/>
+  <sprite name="Credit3" file="Credit3.png"/>
+  <sprite name="Credit4" file="Credit4.png"/>
+    
+  <sprite name="SETTINGS" file="SETTINGS.png"/>
+  <sprite name="CREDITS" file="CREDITS.png"/>
+  <sprite name="CLICK_TO_START" file="CLICK_TO_START.png"/>
+    
+	<sprite name="unopenedMenu" file="UnopenedMenu.png"/>
+	<sprite name="inventoryMenu" file="InventoryMenu.png"/>
+	<sprite name="breedingMenu" file="BreedingMenu.png"/>
+	<sprite name="gearMenu" file="GearMenu.png"/>
+	
+	<sprite name="background" file="backGround.png"/>
+	<sprite name="island" file="Island.png"/>
+	<sprite name="dockFront" file="dockFront.png"/>
+	<sprite name="dockBack" file="dockBack.png"/>
+	<sprite name="connectingDock" file="connectingDock.png"/>
+	<sprite name="connectingDock3D" file="connectingDock3D.png"/>
+
+	<sprite name="sun" file="sun.png"/>
+	<sprite name="fullMoon" file="moonFull.png"/>
+
+	<sprite name="baseSky1" file="BaseSky.png"/>
+  <sprite name="baseSky2" file="BaseSkyYellow.png"/>
+  <sprite name="baseSky3" file="BaseSky3.png"/>
+  <sprite name="baseSky4" file="BaseSky4.png"/>
+
+  <sprite name="skyhue" file="SkyHue.png"/>
+	<sprite name="nightOverlay" file="NightOverlay.png"/>
+	<sprite name="foreground" file="foreground.png"/>
+
+	<sprite name="sea_bottom1" file="sea_bottom1.png"/>
+	<sprite name="sea_bottom2" file="sea_bottom2.png"/>
+	<sprite name="sea_bottom3" file="sea_bottom3.png"/>
+	<sprite name="sea_bottom4" file="sea_bottom4.png"/>
+
+  <sprite name="penguinStatic" file="PenguinStatic" ext="png" frames="4"/>
+	<sprite name="penguinLeft" file="PenguinLeft" ext="png" frames="4"/>
+	<sprite name="penguinRight" file="PenguinRight" ext="png" frames="4"/>
+	<sprite name="penguinFishing" file="PenguinFishing" ext="png" frames="4"/>
+	<sprite name="penguinSailRight" file="PenguinRight0.png"/>
+	<sprite name="penguinSailLeft" file="PenguinLeft0.png"/>
+	
+	<sprite name="hook" file="Hook.png"/>
+	<sprite name="unloadedFishSprite" file="placeHolderFish.png"/>
+	<sprite name="fishSprite" file="fishSprite" ext="png" frames="2"/>
+	
+	<sprite name="ocean" file="Blue.png"/>
+	<sprite name="oceanYellow" file="Yellow.png"/>
+
+  <sprite name="nightShadow" file="purple.png"/>
+	
+	<sprite name="number0" file="number0.png"/>
+	<sprite name="number1" file="number1.png"/>
+	<sprite name="number2" file="number2.png"/>
+	<sprite name="number3" file="number3.png"/>
+	<sprite name="number4" file="number4.png"/>
+	<sprite name="number5" file="number5.png"/>
+	<sprite name="number6" file="number6.png"/>
+	<sprite name="number7" file="number7.png"/>
+	<sprite name="number8" file="number8.png"/>
+	<sprite name="number9" file="number9.png"/>
+	
+	<sprite name="letterA" file="letterA.png"/>
+	<sprite name="letterB" file="letterB.png"/>
+	<sprite name="letterC" file="letterC.png"/>
+	<sprite name="letterD" file="letterD.png"/>
+	<sprite name="letterE" file="letterE.png"/>
+	<sprite name="letterF" file="letterF.png"/>
+	<sprite name="letterG" file="letterG.png"/>
+	<sprite name="letterH" file="letterH.png"/>
+	<sprite name="letterI" file="letterI.png"/>
+	<sprite name="letterJ" file="letterJ.png"/>
+	<sprite name="letterK" file="letterK.png"/>
+	<sprite name="letterL" file="letterL.png"/>
+	<sprite name="letterM" file="letterM.png"/>
+	<sprite name="letterN" file="letterN.png"/>
+	<sprite name="letterO" file="letterO.png"/>
+	<sprite name="letterP" file="letterP.png"/>
+	<sprite name="letterQ" file="letterQ.png"/>
+	<sprite name="letterR" file="letterR.png"/>
+	<sprite name="letterS" file="letterS.png"/>
+	<sprite name="letterT" file="letterT.png"/>
+	<sprite name="letterU" file="letterU.png"/>
+	<sprite name="letterV" file="letterV.png"/>
+	<sprite name="letterW" file="letterW.png"/>
+	<sprite name="letterX" file="letterX.png"/>
+	<sprite name="letterY" file="letterY.png"/>
+	<sprite name="letterZ" file="letterZ.png"/>
+	
+	<sprite name="letter1" file="letter1.png"/>
+	<sprite name="letter2" file="letter2.png"/>
+	<sprite name="letter3" file="letter3.png"/>
+	<sprite name="letter4" file="letter4.png"/>
+	<sprite name="letter5" file="letter5.png"/>
+	<sprite name="letter6" file="letter6.png"/>
+	<sprite name="letter7" file="letter7.png"/>
+	<sprite name="letter8" file="letter8.png"/>
+	<sprite name="letter9" file="letter9.png"/>
+	<sprite name="letter0" file="letter0.png"/>
+	<sprite name="letterCommaNormal" file="letterCommaNormal.png"/>
+	<sprite name="letterQuestion" file="letterQuestion.png"/>
+	
+	<sprite name="letterColon" file="letterColon.png"/>
+	<sprite name="letterComma" file="letterComma.png"/>
+	
+	<sprite name="currencyBar" file="currencyBar.png"/>
+	<sprite name="timeBar" file="timeBar.png"/>
+	
+	<sprite name="whiteline" file="whiteline.png"/>
+	
+	<sprite name="terrain" file="terrain.png"/>
+	<sprite name="terrainFill" file="terrainFill.png"/>
+
+  <sprite name="boat1" file="boat1.png"/>
+  <sprite name="boat2" file="boat2.png"/>
+  <sprite name="boat3" file="boat3.png"/>
+  <sprite name="boat4" file="boat4.png"/>
+  <sprite name="boat5" file="boat5.png"/>
+  <sprite name="boat6" file="boat6.png"/>
+  <sprite name="boat7" file="boat7.png"/>
+  <sprite name="boat8" file="boat8.png"/>
+  <sprite name="boat9" file="boat9.png"/>
+  <sprite name="boat10" file="boat10.png"/>
+  <sprite name="boat11" file="boat11.png"/>
+
+	<sprite name="bait1" file="bait1.png"/>
+	<sprite name="bait2" file="bait2.png"/>
+	<sprite name="bait3" file="bait3.png"/>
+	<sprite name="bait4" file="bait4.png"/>
+  <sprite name="bait5" file="bait5.png"/>
+  <sprite name="bait6" file="bait6.png"/>
+  <sprite name="bait7" file="bait7.png"/>
+  <sprite name="bait8" file="bait8.png"/>
+  <sprite name="bait9" file="bait9.png"/>
+    
+	<sprite name="dialogBox" file="dialogBox.png"/>
+	<sprite name="confirmButton" file="confirmButton.png"/>
+	<sprite name="cancelButton" file="cancelButton.png"/>
+	<sprite name="confirmButtonHighlighted" file="confirmButtonHighlighted.png"/>
+	<sprite name="cancelButtonHighlighted" file="cancelButtonHighlighted.png"/>
+	
+	<sprite name="inventoryFishSelectBackground" file="selectedHighlightInventory.png"/>
+	<sprite name="inventoryFishHoverBackground" file="hoverHighlightInventory.png"/>
+	<sprite name="inventoryFishSelectHoverBackground" file="selectedHoverHighlightInventory.png"/>
+	<sprite name="inventoryFishNormalBackground" file="normalHighlightInventory.png"/>
+	
+	<sprite name="inventoryInfoButtonNormal" file="infoNormalHighlightButton.png"/>
+	<sprite name="inventoryInfoButtonHover" file="infoHoverHighlightButton.png"/>
+	<sprite name="inventoryInfoButtonGray" file="infoGrayHighlightButton.png"/>
+	
+	<sprite name="inventoryLetgoButtonNormal" file="letgoNormalHighlightButton.png"/>
+	<sprite name="inventoryLetgoButtonHover" file="letgoHoverHighlightButton.png"/>
+	<sprite name="inventoryLetgoButtonGray" file="letgoGrayHighlightButton.png"/>
+	
+	<sprite name="inventorySellButtonNormal" file="sellNormalHighlightButton.png"/>
+	<sprite name="inventorySellButtonHover" file="sellHoverHighlightButton.png"/>
+	<sprite name="inventorySellButtonGray" file="sellGrayHighlightButton.png"/>
+	
+	<sprite name="inventoryBreedButtonNormal" file="BreedNormalHighlightButton.png"/>
+	<sprite name="inventoryBreedButtonHover" file="BreedHoverHighlightButton.png"/>
+	<sprite name="inventoryBreedButtonGray" file="BreedGrayHighlightButton.png"/>
+	
+	<sprite name="gearItemNormal" file="gearNormal.png"/>
+	<sprite name="gearItemHover" file="gearHover.png"/>
+	<sprite name="gearItemSelectedNormal" file="gearSelectedNormal.png"/>
+	<sprite name="gearItemSelectedHover" file="gearSelectedHover.png"/>
+	
+	<sprite name="buyButtonNormal" file="buyButtonNormal.png"/>
+	<sprite name="buyButtonHover" file="buyButtonHover.png"/>
+	<sprite name="buyButtonGray" file="buyButtonGray.png"/>
+	
+	<sprite name="selectButtonNormal" file="selectButtonNormal.png"/>
+	<sprite name="selectButtonHover" file="selectButtonHover.png"/>
+	<sprite name="selectButtonGray" file="selectButtonGray.png"/>
+	
+	<sprite name="poleIcon1" file="poleIcon1.png"/>
+	<sprite name="poleIcon2" file="poleIcon2.png"/>
+	<sprite name="poleIcon3" file="poleIcon3.png"/>
+	<sprite name="poleIcon4" file="poleIcon4.png"/>
+	<sprite name="poleIcon5" file="poleIcon5.png"/>
+	<sprite name="poleIcon6" file="poleIcon6.png"/>
+	
+	<sprite name="weightIcon1" file="weightIcon1.png"/>
+	<sprite name="weightIcon2" file="weightIcon2.png"/>
+	<sprite name="weightIcon3" file="weightIcon3.png"/>
+	
+	<sprite name="boatIcon1" file="boatIcon1.png"/>
+	<sprite name="boatIcon2" file="boatIcon2.png"/>
+	<sprite name="boatIcon3" file="boatIcon3.png"/>
+	
+	<sprite name="lock" file="lockedSpaceFishInventory.png"/>
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds  path="Media\Sounds">
+    <sound file="fishUnderWater.wav" instances="8"/>
+    <sound file="money.wav" instances="8"/>
+	<sound file="ocean1.wav" instances="8"/>
+	<sound file="underwater.wav" instances="8"/>
+	<sound file="waves.wav" instances="8"/>
+	<sound file="blop.wav" instances="8"/>
+	<sound file="walk1.wav" instances="8"/>
+	<sound file="walk2.wav" instances="8"/>
+	<sound file="hookInWater.wav" instances="8"/>
+	<sound file="catch.wav" instances="8"/>
+	<sound file="select.wav" instances="8"/>
+	<sound file="menuOpen.wav" instances="8"/>
+	<sound file="menuClose.wav" instances="8"/>
+	
+  </sounds>
+</settings>

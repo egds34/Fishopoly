@@ -1,0 +1,88 @@
+<?xml version="1.0"?>
+<!-- Game settings -->
+
+<settings>
+  <game name="Fishopoly" />
+  <renderer width="1280" height="720"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+  
+  <sprites path="Media\Images">
+  
+	<sprite name="unopenedMenu" file="UnopenedMenu.png"/>
+	<sprite name="inventoryMenu" file="InventoryMenu.png"/>
+	<sprite name="breedingMenu" file="BreedingMenu.png"/>
+	
+	<sprite name="background" file="backGround.png"/>
+	<sprite name="island" file="Island.png"/>
+	<sprite name="dockFront" file="dockFront.png"/>
+	<sprite name="dockBack" file="dockBack.png"/>
+	<sprite name="connectingDock" file="connectingDock.png"/>
+	<sprite name="connectingDock3D" file="connectingDock3D.png"/>
+
+	<sprite name="sun" file="sun.png"/>
+	<sprite name="fullMoon" file="moonFull.png"/>
+
+	<sprite name="sky1" file="sky1.png"/>
+	<sprite name="sky2" file="BaseSky.png"/>
+	<sprite name="sky3" file="sky3.png"/>
+	<sprite name="sky4" file="sky4.png"/>
+	<sprite name="skyhue" file="SkyHue.png"/>
+	<sprite name="nightOverlay" file="NightOverlay.png"/>
+	<sprite name="foreground" file="foreground.png"/>
+	<sprite name="ocean" file="ocean.png"/>
+
+	<sprite name="sea_top1" file="sea_top1.png"/>
+	<sprite name="sea_top2" file="sea_top2.png"/>
+	<sprite name="sea_top3" file="sea_top3.png"/>
+	<sprite name="sea_top4" file="sea_top4.png"/>
+
+	<sprite name="sea_bottom1" file="sea_bottom1.png"/>
+	<sprite name="sea_bottom2" file="sea_bottom2.png"/>
+	<sprite name="sea_bottom3" file="sea_bottom3.png"/>
+	<sprite name="sea_bottom4" file="sea_bottom4.png"/>
+
+    <sprite name="penguinStatic" file="PenguinStatic" ext="png" frames="4"/>
+	<sprite name="penguinLeft" file="PenguinLeft" ext="png" frames="4"/>
+	<sprite name="penguinRight" file="PenguinRight" ext="png" frames="4"/>
+	<sprite name="penguinFishing" file="PenguinFishing" ext="png" frames="4"/>
+	
+	<sprite name="hook" file="Hook.png"/>
+	<sprite name="unloadedFishSprite" file="placeHolderFish.png"/>
+	<sprite name="fishSprite" file="fishSprite" ext="png" frames="2"/>
+	
+	<sprite name="ocean1" file="Blue.png"/>
+	<sprite name="nightShadow" file="purple.png"/>
+	
+	<sprite name="number0" file="number0.png"/>
+	<sprite name="number1" file="number1.png"/>
+	<sprite name="number2" file="number2.png"/>
+	<sprite name="number3" file="number3.png"/>
+	<sprite name="number4" file="number4.png"/>
+	<sprite name="number5" file="number5.png"/>
+	<sprite name="number6" file="number6.png"/>
+	<sprite name="number7" file="number7.png"/>
+	<sprite name="number8" file="number8.png"/>
+	<sprite name="number9" file="number9.png"/>
+	<sprite name="letterColon" file="letterColon.png"/>
+	<sprite name="letterComma" file="letterComma.png"/>
+	
+	<sprite name="currencyBar" file="currencyBar.png"/>
+	<sprite name="timeBar" file="timeBar.png"/>
+	
+	<sprite name="whiteline" file="whiteline.png"/>
+	
+	<sprite name="terrain" file="terrain.png"/>
+	<sprite name="terrainFill" file="terrainFill.png"/>
+	
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds  path="Media\Sounds">
+    <sound file="clang.wav" instances="8"/>
+    <sound file="umph.wav" instances="8"/>
+  </sounds>
+</settings>
